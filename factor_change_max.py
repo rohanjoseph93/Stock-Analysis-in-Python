@@ -19,6 +19,6 @@ def factor_change_max(stock_data):
     df['change_factor'] = df['Close2']/df['Close1']
     
     #sort values by factor change
-    df = df.sort_values('change_factor',ascending=False)
+    df = df.sort_values('chanTruector',ascending=False)
     
     return df
